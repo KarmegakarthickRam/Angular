@@ -1,0 +1,48 @@
+<div><h5>Add Asset Page</h5></div>
+<div style="padding: 40px;">
+<div class="mb-3">
+  <label for="basic-url" class="form-label">Serial No</label>
+  <div class="input-group">
+    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3" [(ngModel)] = "asset.serialNumber">
+  </div>
+</div>
+<div class="mb-3">
+  <label class="form-label">Name</label>
+  <input type="text" class="form-control" [(ngModel)]="asset.name">
+</div>
+<div class="mb-3">
+  <label class="form-label">Facility</label>
+  <select class="form-select form-select-lg mb-3" [(ngModel)]= "asset.facilityId">
+    <option *ngFor="let facility of facilityList" [value]="facility.id">{{facility.name}}</option>
+  </select>
+</div>
+<div class="mb-3">
+  <label for="basic-url" class="form-label">Purchased</label>
+  <div class="input-group">
+    <input type="date" class="form-control" id="basic-url" aria-describedby="basic-addon3" [(ngModel)] = "asset.purchaseDate">
+  </div>
+</div>
+<span>
+  <button  type="button" class="btn btn-primary-f" (click)="handleSaveAsset()">Save</button>
+  <button type="button" class="btn btn-secondary" routerLink="/asset" style="margin-left: 5px;">Cancel</button>
+</span>
+</div>
+
+<style>
+    .btn-primary-f {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #0d4175;
+    --bs-btn-border-color: #0d4175;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #0d4175;
+    --bs-btn-hover-border-color: #0d4175;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #0d4175;
+    --bs-btn-active-border-color: #0d4175;
+    --bs-btn-active-shadow: inset 0 3px 5pxrgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #0d4175;
+    --bs-btn-disabled-border-color: #0d4175;
+}
+</style>

@@ -1,0 +1,32 @@
+{
+    "assetData": [
+        {
+            "image": "assets/ss.png",
+            "assetId": "1",
+            "serialNo": "SL001",
+            "purchased": "12/22/2021",
+            "facility": "a fac"
+        },
+        {
+            "image": "assets/asset2.png",
+            "assetId": "2",
+            "serialNo": "SL002",
+            "purchased": "12/22/2021",
+            "facility": "ab fac"
+        },
+        {
+            "image": "assets/asset3.png",
+            "assetId": "3",
+            "serialNo": "SL003",
+            "purchased": "12/22/2021",
+            "facility": "abc fac"
+        },
+        {
+            "image": "https://filescontainer.blob.core.windows.net/faciliteasy-files-prod/cee52078-4565-43b8-af97-7e5e08d45dc8%2FAssets%2F92a9f9d8-c44f-4950-96da-309c469ca02f%2FPROFILE%2F20211221_120446.jpg?sv=2020-04-08&spr=https&st=2023-02-02T06%3A28%3A56Z&se=2023-02-02T07%3A29%3A56Z&sr=b&sp=r&sig=1a%2FPtzpMWLPKo7rmLSj29FwdBJxN1U6vp%2F1pH%2FITflA%3D",
+            "assetId": "4",
+            "serialNo": "SL042",
+            "purchased": "12/22/2021",
+            "facility": "abb fac"
+        }
+    ]
+}
